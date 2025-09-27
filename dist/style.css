@@ -36,3 +36,20 @@ tbody tr:nth-child(even) {
 tbody tr:hover {
   background-color: #e9e9e9;
 }
+
+h1 {
+  background-color: red;
+  padding: 5px;
+  font: 24px Arial;
+  color: white;
+}
+
+p {
+  font: 16px "Times New Roman";
+  color: DarkSlateGray;
+}
+
+#author-name-and-date {
+  font: 12px Arial;
+  color: gray;
+}
