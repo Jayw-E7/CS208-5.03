@@ -44,7 +44,7 @@ h1 {
   color: white;
 }
 
-p {
+p, ol {
   font: 16px "Times New Roman";
   color: DarkSlateGray;
 }
@@ -52,4 +52,9 @@ p {
 #author-name-and-date {
   font: 12px Arial;
   color: gray;
+}
+
+a {
+  font: 12px Arial;
+  color: blue;
 }
