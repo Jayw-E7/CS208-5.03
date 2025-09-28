@@ -5,6 +5,29 @@ h1{
 }
 */
 
+/* Variables to define text color and background color for easily swapping between themes */
+/* Light mode theme (default) */
+:root {
+  --bg-color: white;
+  --text-color: darkSlateGray;
+  --link-color: blue;
+}
+
+/* Dark mode theme */
+body.dark-mode {
+  --bg-color: rgb(13, 13, 15);
+  --text-color: lightGray;
+  --link-color: lightBlue;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 2rem;
+  padding-bottom: 30px;
+  background-color: var(--bg-color);
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
@@ -20,13 +43,6 @@ th, td {
 th {
   background-color: #f2f2f2;
   font-weight: bold;
-}
-
-body {
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 0 2rem;
-  padding-bottom: 30px;
 }
 
 tbody tr:nth-child(even) {
@@ -46,7 +62,7 @@ h1 {
 
 p, ol {
   font: 16px "Times New Roman";
-  color: DarkSlateGray;
+  color: var(--text-color);
 }
 
 #author-name-and-date {
@@ -56,5 +72,10 @@ p, ol {
 
 a {
   font: 12px Arial;
-  color: blue;
+  color: var(--link-color);
+}
+
+button {
+  padding: 5px;
+  margin-left: 10px
 }
