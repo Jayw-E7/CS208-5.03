@@ -1,9 +1,3 @@
-/*
-h1{
-  border-color: #000000;
-  border-style: dashed;
-}
-*/
 
 /* Variables to define text color and background color for easily swapping between themes */
 /* Light mode theme (default) */
@@ -28,31 +22,6 @@ body {
   background-color: var(--bg-color);
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-th, td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-}
-
-th {
-  background-color: #f2f2f2;
-  font-weight: bold;
-}
-
-tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-tbody tr:hover {
-  background-color: #e9e9e9;
-}
-
 h1 {
   background-color: red;
   padding: 5px;
@@ -73,6 +42,10 @@ p, ol {
 a {
   font: 12px Arial;
   color: var(--link-color);
+}
+
+img {
+  width: 300px;
 }
 
 button {
